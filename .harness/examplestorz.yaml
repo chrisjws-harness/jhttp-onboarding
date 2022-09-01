@@ -1,0 +1,12 @@
+pipeline:
+  name: example-storz
+  identifier: examplestorz
+  projectIdentifier: Demo_Sandbox
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: test
+        identifier: test
+        template:
+          templateRef: new_stage_template_name
