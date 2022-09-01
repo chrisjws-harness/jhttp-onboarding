@@ -6,7 +6,7 @@ pipeline:
   tags: {}
   stages:
     - stage:
-        name: Example
+        name: Example1
         identifier: Example
         template:
           templateRef: new_stage_template_name
